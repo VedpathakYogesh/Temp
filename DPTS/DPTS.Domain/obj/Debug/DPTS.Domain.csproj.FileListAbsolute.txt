@@ -1,0 +1,5 @@
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Domain\bin\Debug\DPTS.Domain.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Domain\bin\Debug\DPTS.Domain.pdb
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Domain\obj\Debug\DPTS.Domain.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Domain\obj\Debug\DPTS.Domain.pdb
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Domain\obj\Debug\DPTS.Domain.csprojResolveAssemblyReference.cache

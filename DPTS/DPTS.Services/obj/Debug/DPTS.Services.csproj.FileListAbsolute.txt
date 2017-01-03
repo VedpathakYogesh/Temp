@@ -1,0 +1,17 @@
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Services.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Services.pdb
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Data.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Domain.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\EntityFramework.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\EntityFramework.SqlServer.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Data.pdb
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\DPTS.Domain.pdb
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\EntityFramework.xml
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\EntityFramework.SqlServer.xml
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\obj\Debug\DPTS.Services.csprojResolveAssemblyReference.cache
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\obj\Debug\DPTS.Services.dll
+G:\New Dpts\dpts.portal-develop\DPTS\DPTS.Services\obj\Debug\DPTS.Services.pdb
