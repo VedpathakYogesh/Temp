@@ -1,0 +1,69 @@
+﻿@model Captcha.Models.FeedbackModel
+
+@{
+    ViewBag.Title = "Captcha Form";
+}
+
+<h2>CaptchaForm</h2>
+
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>FeedbackModel</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Emailid, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Emailid, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Emailid, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Query, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Query, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Query, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+           Captcha Image
+            <div class="col-md-10">
+               <img src="@Url.Action("GetCaptchaImage","Captcha")"/>
+            </div>
+            <div class="editor-field">
+                <input type="text" name="CaptchaText" id="CaptchaText" value="@ViewBag.CaptchaText"/>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+            <div>
+                @if (ViewBag.Message != null)
+                {
+                    <div style="border:1px solid rgb(141,27,27); width:300px;padding:5px;">
+                      @ViewBag.Message
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
